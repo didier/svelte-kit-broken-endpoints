@@ -3,7 +3,7 @@
  */
 export async function prepare({ headers }) {
   return {
-    // Try commenting out the next line. The endpoints should work again.
+    // Try commenting out the next line. The endpoint should work again.
     headers,
   };
 }
