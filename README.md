@@ -10,3 +10,11 @@ curl --request POST \
 	"email": "test@email.com",
 }'
 ```
+
+## About the issue
+
+Whenever the `prepare` function of `src/setup.js` returns anything, the `api/auth/login` endpoint causes an `Error: Transferred a partial file`.
+
+## Setup details upon fresh install
+
+Disallow TS in components, preprocess with SCSS
