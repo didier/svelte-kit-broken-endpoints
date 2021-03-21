@@ -1,4 +1,4 @@
-# A reproduction of an error related to endoints in SvelteKit.
+# A reproduction of an error related to endpoints in SvelteKit.
 
 Try launching the dev server, and then running the following command:
 
