@@ -1,5 +1,5 @@
 /*
- * The error seems to occur when returning _something_, in this case `headers`, but could it happens with `context` as well.
+ * The error seems to occur when returning _something_, in this case `headers`, but it could happen with `context` as well.
  */
 export async function prepare({ headers }) {
   return {
