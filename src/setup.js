@@ -12,13 +12,13 @@ export async function prepare({ headers }) {
     // Returning headers direcly causes an error, presumably because of the `content-length` header.
     // headers,
 
-    // However, when returning the headers individually (re: not overwriting) everything works fine.
+    // However, when returning the headers individually (re: not overwriting) everything works fine. Overwriting 'content-length' is the culprit.
     headers: {
       host,
       cookie,
-      userAgent,
-      contentType,
-      contentLength,
+      'user-agent': userAgent,
+      'content-type': contentType,
+      // 'content-length': contentLength,
       accept,
     },
   };
